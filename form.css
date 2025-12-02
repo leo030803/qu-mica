@@ -50,7 +50,7 @@ body {
     width: 80%;
     border: none;
     outline: none;
-    font-family: "Chau Philomene One", sans-serif;
+    font-family: "Roboto", sans-serif;
     transform: translateY(-10%);
     color: black;
     font-size: 11pt;
@@ -78,3 +78,52 @@ body {
     outline: none;
     cursor: pointer;
 }
+
+header {
+    background-color: #0BA8BC;
+    padding: 0.125rem 0;
+    
+   
+   
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4.375rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #D633BA;
+    padding: 0.625rem 1.875rem;
+    border-radius: 1.5625rem;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    font-family: Chau Philomene One;
+    font-weight: 100;
+    font-size: 1.3125rem;
+    
+    
+}
+
+nav ul li a:hover {
+    background-color: #b52698;
+}
+
+.logo-2 {
+
+
+    
+}
+
+
